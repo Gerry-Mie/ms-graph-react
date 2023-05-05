@@ -27,7 +27,7 @@ const Login = () => {
     const { instance } = useMsal();
 
     const login = () => {
-        instance.loginRedirect(LOGIN_REQUEST)
+        instance.loginRedirect(LOGIN_REQUEST).catch(console.log)
     }
 
     return (

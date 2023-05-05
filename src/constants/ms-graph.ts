@@ -5,7 +5,7 @@ export const LOGIN_REQUEST:  RedirectRequest = {
         // user
         "User.Read",
         //task
-        'Tasks.Read, Tasks.ReadWrite, Group.Read.All, Group.ReadWrite.All'
+        'Tasks.Read', 'Tasks.ReadWrite', 'Group.Read.All', 'Group.ReadWrite.All'
     ]
 };
 
